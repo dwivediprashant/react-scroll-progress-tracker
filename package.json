@@ -1,6 +1,6 @@
 {
   "name": "react-scroll-progress-tracker",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "type": "module",
   "description": "A small React scroll progress tracker with a doughnut indicator.",
   "license": "MIT",
