@@ -1,0 +1,57 @@
+{
+  "name": "react-scroll-progress-tracker",
+  "version": "1.0.9",
+  "type": "module",
+  "description": "A small React scroll progress tracker with a doughnut indicator.",
+  "license": "MIT",
+  "keywords": [
+    "react-scroll-progress-indicator",
+    "react",
+    "scroll",
+    "progress",
+    "indicator"
+  ],
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwivediprashant/react-scroll-progress-tracker.git"
+  },
+  "files": [
+    "LICENSE",
+    "src/ScrollIndicator.jsx",
+    "src/ScrollIndicator.css",
+    "src/index.js",
+    "src/assets/demo.png",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "react-chartjs-2": "^5.3.1"
+  },
+  "peerDependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.2.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "vite": "^8.0.10"
+  }
+}

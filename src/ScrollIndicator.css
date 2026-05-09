@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.scroll-progress-card {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 9999;
+  display: grid;
+  justify-items: center;
+  width: min(var(--tracker-size, 96px), calc(100vw - 48px));
+  height: min(var(--tracker-size, 96px), calc(100vw - 48px));
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.chart-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.chart-wrap canvas {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.chart-center {
+  position: absolute;
+  inset: 50%;
+  display: grid;
+  place-items: center;
+  transform: translate(-50%, -50%);
+  width: 56%;
+  height: 56%;
+  border-radius: 50%;
+  background: rgba(15, 23, 42, 0.92);
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  box-shadow: inset 0 0 0 1px rgba(248, 250, 252, 0.08);
+}
+
+@media (max-width: 900px) {
+  .scroll-progress-card {
+    right: 16px;
+    bottom: 16px;
+  }
+}
