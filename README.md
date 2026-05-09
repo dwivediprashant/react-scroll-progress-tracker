@@ -1,12 +1,18 @@
 # react-scroll-progress-tracker
 
-A small React component that shows page scroll progress in a compact doughnut tracker.
+<img width="100" height="100" alt="npm" src="https://github.com/user-attachments/assets/62fe4935-adc7-4933-aa5e-d26eb9af4756" />
+
+A small NPM React component that shows page scroll progress in a compact doughnut tracker.
 
 The tracker stays in the bottom-right corner and updates automatically as the user scrolls.
 
 ## Demo
 
-<img src="./src/assets/demo.png" alt="Scroll progress tracker demo" width="100%" />
+
+
+https://github.com/user-attachments/assets/10976ac8-a199-4cbb-99ba-b5a3bb8fcc94
+
+
 
 ## Install
 
