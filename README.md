@@ -8,11 +8,7 @@ The tracker stays in the bottom-right corner and updates automatically as the us
 
 ## Demo
 
-
-
 https://github.com/user-attachments/assets/10976ac8-a199-4cbb-99ba-b5a3bb8fcc94
-
-
 
 ## Install
 
